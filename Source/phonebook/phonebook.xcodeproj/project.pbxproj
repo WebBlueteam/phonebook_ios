@@ -15,6 +15,7 @@
 		5EB5C93F1A637FA900CF19C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EB5C93E1A637FA900CF19C1 /* Images.xcassets */; };
 		5EB5C9421A637FA900CF19C1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EB5C9401A637FA900CF19C1 /* LaunchScreen.xib */; };
 		5EB5C94E1A637FA900CF19C1 /* phonebookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5C94D1A637FA900CF19C1 /* phonebookTests.m */; };
+		5EB5C9661A63D25900CF19C1 /* UIImage+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5C9651A63D25900CF19C1 /* UIImage+Ext.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		5EB5C9471A637FA900CF19C1 /* phonebookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = phonebookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EB5C94C1A637FA900CF19C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EB5C94D1A637FA900CF19C1 /* phonebookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = phonebookTests.m; sourceTree = "<group>"; };
+		5EB5C9641A63D25900CF19C1 /* UIImage+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Ext.h"; sourceTree = "<group>"; };
+		5EB5C9651A63D25900CF19C1 /* UIImage+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Ext.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,7 @@
 		5EB5C92D1A637FA900CF19C1 /* phonebook */ = {
 			isa = PBXGroup;
 			children = (
+				5EB5C9621A63D23E00CF19C1 /* Libraries */,
 				5EB5C9321A637FA900CF19C1 /* AppDelegate.h */,
 				5EB5C9331A637FA900CF19C1 /* AppDelegate.m */,
 				5EB5C9381A637FA900CF19C1 /* ViewController.h */,
@@ -120,6 +124,23 @@
 				5EB5C94C1A637FA900CF19C1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5EB5C9621A63D23E00CF19C1 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				5EB5C9631A63D23E00CF19C1 /* Extensions */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		5EB5C9631A63D23E00CF19C1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5EB5C9641A63D25900CF19C1 /* UIImage+Ext.h */,
+				5EB5C9651A63D25900CF19C1 /* UIImage+Ext.m */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +245,7 @@
 			files = (
 				5EB5C9341A637FA900CF19C1 /* AppDelegate.m in Sources */,
 				5EB5C9311A637FA900CF19C1 /* main.m in Sources */,
+				5EB5C9661A63D25900CF19C1 /* UIImage+Ext.m in Sources */,
 				5EB5C93A1A637FA900CF19C1 /* ViewController.m in Sources */,
 				5EB5C9371A637FA900CF19C1 /* phonebook.xcdatamodeld in Sources */,
 			);
@@ -416,6 +438,7 @@
 				5EB5C9531A637FA900CF19C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5EB5C9541A637FA900CF19C1 /* Build configuration list for PBXNativeTarget "phonebookTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +447,7 @@
 				5EB5C9561A637FA900CF19C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
