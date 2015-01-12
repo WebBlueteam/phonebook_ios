@@ -10,12 +10,16 @@
 		5EB5C9311A637FA900CF19C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5C9301A637FA900CF19C1 /* main.m */; };
 		5EB5C9341A637FA900CF19C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5C9331A637FA900CF19C1 /* AppDelegate.m */; };
 		5EB5C9371A637FA900CF19C1 /* phonebook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5C9351A637FA900CF19C1 /* phonebook.xcdatamodeld */; };
-		5EB5C93A1A637FA900CF19C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5C9391A637FA900CF19C1 /* ViewController.m */; };
-		5EB5C93D1A637FA900CF19C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EB5C93B1A637FA900CF19C1 /* Main.storyboard */; };
 		5EB5C93F1A637FA900CF19C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EB5C93E1A637FA900CF19C1 /* Images.xcassets */; };
-		5EB5C9421A637FA900CF19C1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EB5C9401A637FA900CF19C1 /* LaunchScreen.xib */; };
 		5EB5C94E1A637FA900CF19C1 /* phonebookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5C94D1A637FA900CF19C1 /* phonebookTests.m */; };
 		5EB5C9661A63D25900CF19C1 /* UIImage+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5C9651A63D25900CF19C1 /* UIImage+Ext.m */; };
+		5EB5C96C1A63D3F100CF19C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EB5C96B1A63D3F100CF19C1 /* Main.storyboard */; };
+		5EB5C9731A63D45D00CF19C1 /* AddContantViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5C96E1A63D45D00CF19C1 /* AddContantViewController.m */; };
+		5EB5C9741A63D45D00CF19C1 /* EditContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5C9701A63D45D00CF19C1 /* EditContactViewController.m */; };
+		5EB5C9751A63D45D00CF19C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5C9721A63D45D00CF19C1 /* ViewController.m */; };
+		5EB5C9791A63D4E700CF19C1 /* ObItemContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5C9781A63D4E700CF19C1 /* ObItemContact.m */; };
+		5EB5C97C1A63D5EA00CF19C1 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5C97B1A63D5EA00CF19C1 /* MyTableViewCell.m */; };
+		5EB5C9861A63D6D700CF19C1 /* KLCPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5C9851A63D6D700CF19C1 /* KLCPopup.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,16 +39,25 @@
 		5EB5C9321A637FA900CF19C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5EB5C9331A637FA900CF19C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5EB5C9361A637FA900CF19C1 /* phonebook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = phonebook.xcdatamodel; sourceTree = "<group>"; };
-		5EB5C9381A637FA900CF19C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5EB5C9391A637FA900CF19C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5EB5C93C1A637FA900CF19C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5EB5C93E1A637FA900CF19C1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5EB5C9411A637FA900CF19C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5EB5C9471A637FA900CF19C1 /* phonebookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = phonebookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EB5C94C1A637FA900CF19C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EB5C94D1A637FA900CF19C1 /* phonebookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = phonebookTests.m; sourceTree = "<group>"; };
 		5EB5C9641A63D25900CF19C1 /* UIImage+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Ext.h"; sourceTree = "<group>"; };
 		5EB5C9651A63D25900CF19C1 /* UIImage+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Ext.m"; sourceTree = "<group>"; };
+		5EB5C96B1A63D3F100CF19C1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5EB5C96D1A63D45D00CF19C1 /* AddContantViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddContantViewController.h; sourceTree = "<group>"; };
+		5EB5C96E1A63D45D00CF19C1 /* AddContantViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddContantViewController.m; sourceTree = "<group>"; };
+		5EB5C96F1A63D45D00CF19C1 /* EditContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditContactViewController.h; sourceTree = "<group>"; };
+		5EB5C9701A63D45D00CF19C1 /* EditContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditContactViewController.m; sourceTree = "<group>"; };
+		5EB5C9711A63D45D00CF19C1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5EB5C9721A63D45D00CF19C1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5EB5C9771A63D4E700CF19C1 /* ObItemContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObItemContact.h; sourceTree = "<group>"; };
+		5EB5C9781A63D4E700CF19C1 /* ObItemContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObItemContact.m; sourceTree = "<group>"; };
+		5EB5C97A1A63D5EA00CF19C1 /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		5EB5C97B1A63D5EA00CF19C1 /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		5EB5C9841A63D6D700CF19C1 /* KLCPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLCPopup.h; sourceTree = "<group>"; };
+		5EB5C9851A63D6D700CF19C1 /* KLCPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLCPopup.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,14 +99,13 @@
 		5EB5C92D1A637FA900CF19C1 /* phonebook */ = {
 			isa = PBXGroup;
 			children = (
+				5EB5C97D1A63D65700CF19C1 /* Resources */,
+				5EB5C9761A63D4CF00CF19C1 /* Models */,
+				5EB5C9671A63D3B100CF19C1 /* UI */,
 				5EB5C9621A63D23E00CF19C1 /* Libraries */,
 				5EB5C9321A637FA900CF19C1 /* AppDelegate.h */,
 				5EB5C9331A637FA900CF19C1 /* AppDelegate.m */,
-				5EB5C9381A637FA900CF19C1 /* ViewController.h */,
-				5EB5C9391A637FA900CF19C1 /* ViewController.m */,
-				5EB5C93B1A637FA900CF19C1 /* Main.storyboard */,
 				5EB5C93E1A637FA900CF19C1 /* Images.xcassets */,
-				5EB5C9401A637FA900CF19C1 /* LaunchScreen.xib */,
 				5EB5C9351A637FA900CF19C1 /* phonebook.xcdatamodeld */,
 				5EB5C92E1A637FA900CF19C1 /* Supporting Files */,
 			);
@@ -129,6 +141,7 @@
 		5EB5C9621A63D23E00CF19C1 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				5EB5C9831A63D6D700CF19C1 /* KLCPopup */,
 				5EB5C9631A63D23E00CF19C1 /* Extensions */,
 			);
 			path = Libraries;
@@ -141,6 +154,111 @@
 				5EB5C9651A63D25900CF19C1 /* UIImage+Ext.m */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5EB5C9671A63D3B100CF19C1 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5EB5C9681A63D3B100CF19C1 /* Cell */,
+				5EB5C9691A63D3B100CF19C1 /* Controller */,
+				5EB5C96A1A63D3B100CF19C1 /* Storyboards */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		5EB5C9681A63D3B100CF19C1 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				5EB5C97A1A63D5EA00CF19C1 /* MyTableViewCell.h */,
+				5EB5C97B1A63D5EA00CF19C1 /* MyTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		5EB5C9691A63D3B100CF19C1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5EB5C96D1A63D45D00CF19C1 /* AddContantViewController.h */,
+				5EB5C96E1A63D45D00CF19C1 /* AddContantViewController.m */,
+				5EB5C96F1A63D45D00CF19C1 /* EditContactViewController.h */,
+				5EB5C9701A63D45D00CF19C1 /* EditContactViewController.m */,
+				5EB5C9711A63D45D00CF19C1 /* ViewController.h */,
+				5EB5C9721A63D45D00CF19C1 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5EB5C96A1A63D3B100CF19C1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5EB5C96B1A63D3F100CF19C1 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		5EB5C9761A63D4CF00CF19C1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5EB5C9771A63D4E700CF19C1 /* ObItemContact.h */,
+				5EB5C9781A63D4E700CF19C1 /* ObItemContact.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5EB5C97D1A63D65700CF19C1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5EB5C97E1A63D65700CF19C1 /* Data */,
+				5EB5C97F1A63D65700CF19C1 /* Images */,
+				5EB5C9821A63D65700CF19C1 /* languages */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5EB5C97E1A63D65700CF19C1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5EB5C97F1A63D65700CF19C1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5EB5C9801A63D65700CF19C1 /* Background */,
+				5EB5C9811A63D65700CF19C1 /* Icon */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		5EB5C9801A63D65700CF19C1 /* Background */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Background;
+			sourceTree = "<group>";
+		};
+		5EB5C9811A63D65700CF19C1 /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Icon;
+			sourceTree = "<group>";
+		};
+		5EB5C9821A63D65700CF19C1 /* languages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = languages;
+			sourceTree = "<group>";
+		};
+		5EB5C9831A63D6D700CF19C1 /* KLCPopup */ = {
+			isa = PBXGroup;
+			children = (
+				5EB5C9841A63D6D700CF19C1 /* KLCPopup.h */,
+				5EB5C9851A63D6D700CF19C1 /* KLCPopup.m */,
+			);
+			path = KLCPopup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,8 +341,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EB5C93D1A637FA900CF19C1 /* Main.storyboard in Resources */,
-				5EB5C9421A637FA900CF19C1 /* LaunchScreen.xib in Resources */,
+				5EB5C96C1A63D3F100CF19C1 /* Main.storyboard in Resources */,
 				5EB5C93F1A637FA900CF19C1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,11 +360,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EB5C9741A63D45D00CF19C1 /* EditContactViewController.m in Sources */,
+				5EB5C9861A63D6D700CF19C1 /* KLCPopup.m in Sources */,
 				5EB5C9341A637FA900CF19C1 /* AppDelegate.m in Sources */,
+				5EB5C9751A63D45D00CF19C1 /* ViewController.m in Sources */,
+				5EB5C97C1A63D5EA00CF19C1 /* MyTableViewCell.m in Sources */,
 				5EB5C9311A637FA900CF19C1 /* main.m in Sources */,
+				5EB5C9731A63D45D00CF19C1 /* AddContantViewController.m in Sources */,
 				5EB5C9661A63D25900CF19C1 /* UIImage+Ext.m in Sources */,
-				5EB5C93A1A637FA900CF19C1 /* ViewController.m in Sources */,
 				5EB5C9371A637FA900CF19C1 /* phonebook.xcdatamodeld in Sources */,
+				5EB5C9791A63D4E700CF19C1 /* ObItemContact.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,25 +390,6 @@
 			targetProxy = 5EB5C9481A637FA900CF19C1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		5EB5C93B1A637FA900CF19C1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5EB5C93C1A637FA900CF19C1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5EB5C9401A637FA900CF19C1 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5EB5C9411A637FA900CF19C1 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5EB5C94F1A637FA900CF19C1 /* Debug */ = {
