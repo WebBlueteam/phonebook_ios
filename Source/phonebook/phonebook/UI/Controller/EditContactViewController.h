@@ -6,8 +6,8 @@
 //  Copyright (c) 2015 example. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface EditContactViewController : UIViewController
+@interface EditContactViewController : BaseViewController
 
 @end

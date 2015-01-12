@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 example. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 #import <AddressBookUI/AddressBookUI.h>
+#import "BaseViewController.h"
 
 @protocol ContactViewControllerDelegate <NSObject>
 @required
@@ -15,7 +15,7 @@
 
 @end
 
-@interface AddContantViewController : UIViewController <ABPeoplePickerNavigationControllerDelegate>
+@interface AddContantViewController : BaseViewController <ABPeoplePickerNavigationControllerDelegate>
 @property (nonatomic, strong) IBOutlet UITextField *tfFirstName;
 @property (nonatomic, strong) IBOutlet UITextField * tfLastName;
 @property (nonatomic, assign) id<ContactViewControllerDelegate> contactDelegate;

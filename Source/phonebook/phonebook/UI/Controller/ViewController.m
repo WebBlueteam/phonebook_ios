@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "UIImage+Ext.h"
+#import "ContactObject.h"
 
 @interface ViewController ()
 
@@ -43,7 +44,7 @@
     {
         cell = [[MyTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
     }
-    ObItemContact *item = [self.arrContact objectAtIndex:indexPath.row];
+    ContactObject *item = [self.arrContact objectAtIndex:indexPath.row];
     cell.lbFirstName.text = item.firstName;
     cell.lbLastName.text = item.lastName;
     cell.lbNumberPhone.text = item.numberPhone;
@@ -87,7 +88,7 @@
     for(int i  = 0; i < count; i++)
     {
         ABRecordRef record = CFArrayGetValueAtIndex(allPeople, i);
-        ObItemContact *ob = [[ObItemContact alloc] init];
+        ContactObject *ob = [[ContactObject alloc] init];
         ob.firstName = (__bridge NSString *) ABRecordCopyValue(record, kABPersonFirstNameProperty);
         ob.lastName = (__bridge NSString *)ABRecordCopyValue(record, kABPersonLastNameProperty);
         ABMultiValueRef allPhoneNumberForPerSon = ABRecordCopyValue(record, kABPersonPhoneProperty);
@@ -129,7 +130,7 @@
 //    [self presentViewController:addController animated:YES completion:nil];
 }
 -(void)addNewContact:(NSString *)firstName lastname:(NSString *)lastName{
-    ObItemContact *ob = [[ObItemContact alloc] init];
+    ContactObject *ob = [[ContactObject alloc] init];
     ob.firstName = firstName;
     ob.lastName = lastName;
     [self.arrContact addObject:ob];
