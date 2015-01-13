@@ -25,6 +25,12 @@
 		5EB5C9951A63DAF200CF19C1 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5C98F1A63DAF200CF19C1 /* BaseView.m */; };
 		5EB5C9961A63DAF200CF19C1 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5C9911A63DAF200CF19C1 /* BaseViewController.m */; };
 		5EB5C99C1A63DEAD00CF19C1 /* ContactObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5C99B1A63DEAD00CF19C1 /* ContactObject.m */; };
+		5EB5C9AB1A65092200CF19C1 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5C9A01A65092200CF19C1 /* NSObject+SBJSON.m */; };
+		5EB5C9AC1A65092200CF19C1 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5C9A21A65092200CF19C1 /* NSString+SBJSON.m */; };
+		5EB5C9AD1A65092200CF19C1 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5C9A41A65092200CF19C1 /* SBJSON.m */; };
+		5EB5C9AE1A65092200CF19C1 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5C9A61A65092200CF19C1 /* SBJsonBase.m */; };
+		5EB5C9AF1A65092200CF19C1 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5C9A81A65092200CF19C1 /* SBJsonParser.m */; };
+		5EB5C9B01A65092200CF19C1 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5C9AA1A65092200CF19C1 /* SBJsonWriter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +80,19 @@
 		5EB5C9981A63DCD500CF19C1 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		5EB5C99A1A63DEAD00CF19C1 /* ContactObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactObject.h; sourceTree = "<group>"; };
 		5EB5C99B1A63DEAD00CF19C1 /* ContactObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactObject.m; sourceTree = "<group>"; };
+		5EB5C99E1A65092200CF19C1 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		5EB5C99F1A65092200CF19C1 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		5EB5C9A01A65092200CF19C1 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		5EB5C9A11A65092200CF19C1 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		5EB5C9A21A65092200CF19C1 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		5EB5C9A31A65092200CF19C1 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		5EB5C9A41A65092200CF19C1 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		5EB5C9A51A65092200CF19C1 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		5EB5C9A61A65092200CF19C1 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		5EB5C9A71A65092200CF19C1 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		5EB5C9A81A65092200CF19C1 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		5EB5C9A91A65092200CF19C1 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		5EB5C9AA1A65092200CF19C1 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +178,7 @@
 		5EB5C9621A63D23E00CF19C1 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				5EB5C99D1A65092200CF19C1 /* JSON */,
 				5EB5C9831A63D6D700CF19C1 /* KLCPopup */,
 				5EB5C9631A63D23E00CF19C1 /* Extensions */,
 			);
@@ -304,6 +324,26 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		5EB5C99D1A65092200CF19C1 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				5EB5C99E1A65092200CF19C1 /* JSON.h */,
+				5EB5C99F1A65092200CF19C1 /* NSObject+SBJSON.h */,
+				5EB5C9A01A65092200CF19C1 /* NSObject+SBJSON.m */,
+				5EB5C9A11A65092200CF19C1 /* NSString+SBJSON.h */,
+				5EB5C9A21A65092200CF19C1 /* NSString+SBJSON.m */,
+				5EB5C9A31A65092200CF19C1 /* SBJSON.h */,
+				5EB5C9A41A65092200CF19C1 /* SBJSON.m */,
+				5EB5C9A51A65092200CF19C1 /* SBJsonBase.h */,
+				5EB5C9A61A65092200CF19C1 /* SBJsonBase.m */,
+				5EB5C9A71A65092200CF19C1 /* SBJsonParser.h */,
+				5EB5C9A81A65092200CF19C1 /* SBJsonParser.m */,
+				5EB5C9A91A65092200CF19C1 /* SBJsonWriter.h */,
+				5EB5C9AA1A65092200CF19C1 /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -403,20 +443,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EB5C9AD1A65092200CF19C1 /* SBJSON.m in Sources */,
 				5EB5C9741A63D45D00CF19C1 /* EditContactViewController.m in Sources */,
 				5EB5C9961A63DAF200CF19C1 /* BaseViewController.m in Sources */,
 				5EB5C9861A63D6D700CF19C1 /* KLCPopup.m in Sources */,
 				5EB5C9341A637FA900CF19C1 /* AppDelegate.m in Sources */,
 				5EB5C9941A63DAF200CF19C1 /* BaseScrollViewController.m in Sources */,
 				5EB5C9751A63D45D00CF19C1 /* ViewController.m in Sources */,
+				5EB5C9B01A65092200CF19C1 /* SBJsonWriter.m in Sources */,
 				5EB5C9931A63DAF200CF19C1 /* BaseScrollView.m in Sources */,
+				5EB5C9AE1A65092200CF19C1 /* SBJsonBase.m in Sources */,
 				5EB5C97C1A63D5EA00CF19C1 /* MyTableViewCell.m in Sources */,
 				5EB5C99C1A63DEAD00CF19C1 /* ContactObject.m in Sources */,
 				5EB5C9311A637FA900CF19C1 /* main.m in Sources */,
 				5EB5C9731A63D45D00CF19C1 /* AddContantViewController.m in Sources */,
+				5EB5C9AF1A65092200CF19C1 /* SBJsonParser.m in Sources */,
 				5EB5C9951A63DAF200CF19C1 /* BaseView.m in Sources */,
 				5EB5C9921A63DAF200CF19C1 /* BaseObject.m in Sources */,
+				5EB5C9AC1A65092200CF19C1 /* NSString+SBJSON.m in Sources */,
 				5EB5C9661A63D25900CF19C1 /* UIImage+Ext.m in Sources */,
+				5EB5C9AB1A65092200CF19C1 /* NSObject+SBJSON.m in Sources */,
 				5EB5C9371A637FA900CF19C1 /* phonebook.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
