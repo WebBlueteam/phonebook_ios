@@ -31,6 +31,23 @@
 		5EB5C9AE1A65092200CF19C1 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5C9A61A65092200CF19C1 /* SBJsonBase.m */; };
 		5EB5C9AF1A65092200CF19C1 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5C9A81A65092200CF19C1 /* SBJsonParser.m */; };
 		5EB5C9B01A65092200CF19C1 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5C9AA1A65092200CF19C1 /* SBJsonWriter.m */; };
+		5EB5C9D71A65339600CF19C1 /* UIActivityIndicatorView+ZPNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5C9B41A65339600CF19C1 /* UIActivityIndicatorView+ZPNetworking.m */; };
+		5EB5C9D81A65339600CF19C1 /* UIAlertView+ZPNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5C9B61A65339600CF19C1 /* UIAlertView+ZPNetworking.m */; };
+		5EB5C9D91A65339600CF19C1 /* UIButton+ZPNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5C9B81A65339600CF19C1 /* UIButton+ZPNetworking.m */; };
+		5EB5C9DA1A65339600CF19C1 /* UIImageView+ZPNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5C9BA1A65339600CF19C1 /* UIImageView+ZPNetworking.m */; };
+		5EB5C9DB1A65339600CF19C1 /* UIProgressView+ZPNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5C9BD1A65339600CF19C1 /* UIProgressView+ZPNetworking.m */; };
+		5EB5C9DC1A65339600CF19C1 /* UIRefreshControl+ZPNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5C9BF1A65339600CF19C1 /* UIRefreshControl+ZPNetworking.m */; };
+		5EB5C9DD1A65339600CF19C1 /* UIWebView+ZPNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5C9C11A65339600CF19C1 /* UIWebView+ZPNetworking.m */; };
+		5EB5C9DE1A65339600CF19C1 /* ZPNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5C9C31A65339600CF19C1 /* ZPNetworkActivityIndicatorManager.m */; };
+		5EB5C9DF1A65339600CF19C1 /* ZPHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5C9C51A65339600CF19C1 /* ZPHTTPRequestOperation.m */; };
+		5EB5C9E01A65339600CF19C1 /* ZPHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5C9C71A65339600CF19C1 /* ZPHTTPRequestOperationManager.m */; };
+		5EB5C9E11A65339600CF19C1 /* ZPHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5C9C91A65339600CF19C1 /* ZPHTTPSessionManager.m */; };
+		5EB5C9E21A65339600CF19C1 /* ZPNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5C9CC1A65339600CF19C1 /* ZPNetworkReachabilityManager.m */; };
+		5EB5C9E31A65339600CF19C1 /* ZPSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5C9CE1A65339600CF19C1 /* ZPSecurityPolicy.m */; };
+		5EB5C9E41A65339600CF19C1 /* ZPURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5C9D01A65339600CF19C1 /* ZPURLConnectionOperation.m */; };
+		5EB5C9E51A65339600CF19C1 /* ZPURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5C9D21A65339600CF19C1 /* ZPURLRequestSerialization.m */; };
+		5EB5C9E61A65339600CF19C1 /* ZPURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5C9D41A65339600CF19C1 /* ZPURLResponseSerialization.m */; };
+		5EB5C9E71A65339600CF19C1 /* ZPURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5C9D61A65339600CF19C1 /* ZPURLSessionManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +110,42 @@
 		5EB5C9A81A65092200CF19C1 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
 		5EB5C9A91A65092200CF19C1 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
 		5EB5C9AA1A65092200CF19C1 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		5EB5C9B31A65339600CF19C1 /* UIActivityIndicatorView+ZPNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+ZPNetworking.h"; sourceTree = "<group>"; };
+		5EB5C9B41A65339600CF19C1 /* UIActivityIndicatorView+ZPNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+ZPNetworking.m"; sourceTree = "<group>"; };
+		5EB5C9B51A65339600CF19C1 /* UIAlertView+ZPNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+ZPNetworking.h"; sourceTree = "<group>"; };
+		5EB5C9B61A65339600CF19C1 /* UIAlertView+ZPNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+ZPNetworking.m"; sourceTree = "<group>"; };
+		5EB5C9B71A65339600CF19C1 /* UIButton+ZPNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ZPNetworking.h"; sourceTree = "<group>"; };
+		5EB5C9B81A65339600CF19C1 /* UIButton+ZPNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ZPNetworking.m"; sourceTree = "<group>"; };
+		5EB5C9B91A65339600CF19C1 /* UIImageView+ZPNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ZPNetworking.h"; sourceTree = "<group>"; };
+		5EB5C9BA1A65339600CF19C1 /* UIImageView+ZPNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ZPNetworking.m"; sourceTree = "<group>"; };
+		5EB5C9BB1A65339600CF19C1 /* UIKit+ZPNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKit+ZPNetworking.h"; sourceTree = "<group>"; };
+		5EB5C9BC1A65339600CF19C1 /* UIProgressView+ZPNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+ZPNetworking.h"; sourceTree = "<group>"; };
+		5EB5C9BD1A65339600CF19C1 /* UIProgressView+ZPNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+ZPNetworking.m"; sourceTree = "<group>"; };
+		5EB5C9BE1A65339600CF19C1 /* UIRefreshControl+ZPNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIRefreshControl+ZPNetworking.h"; sourceTree = "<group>"; };
+		5EB5C9BF1A65339600CF19C1 /* UIRefreshControl+ZPNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+ZPNetworking.m"; sourceTree = "<group>"; };
+		5EB5C9C01A65339600CF19C1 /* UIWebView+ZPNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+ZPNetworking.h"; sourceTree = "<group>"; };
+		5EB5C9C11A65339600CF19C1 /* UIWebView+ZPNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+ZPNetworking.m"; sourceTree = "<group>"; };
+		5EB5C9C21A65339600CF19C1 /* ZPNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		5EB5C9C31A65339600CF19C1 /* ZPNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		5EB5C9C41A65339600CF19C1 /* ZPHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPHTTPRequestOperation.h; sourceTree = "<group>"; };
+		5EB5C9C51A65339600CF19C1 /* ZPHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPHTTPRequestOperation.m; sourceTree = "<group>"; };
+		5EB5C9C61A65339600CF19C1 /* ZPHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		5EB5C9C71A65339600CF19C1 /* ZPHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		5EB5C9C81A65339600CF19C1 /* ZPHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPHTTPSessionManager.h; sourceTree = "<group>"; };
+		5EB5C9C91A65339600CF19C1 /* ZPHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPHTTPSessionManager.m; sourceTree = "<group>"; };
+		5EB5C9CA1A65339600CF19C1 /* ZPNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPNetworking.h; sourceTree = "<group>"; };
+		5EB5C9CB1A65339600CF19C1 /* ZPNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		5EB5C9CC1A65339600CF19C1 /* ZPNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		5EB5C9CD1A65339600CF19C1 /* ZPSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPSecurityPolicy.h; sourceTree = "<group>"; };
+		5EB5C9CE1A65339600CF19C1 /* ZPSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPSecurityPolicy.m; sourceTree = "<group>"; };
+		5EB5C9CF1A65339600CF19C1 /* ZPURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPURLConnectionOperation.h; sourceTree = "<group>"; };
+		5EB5C9D01A65339600CF19C1 /* ZPURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPURLConnectionOperation.m; sourceTree = "<group>"; };
+		5EB5C9D11A65339600CF19C1 /* ZPURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPURLRequestSerialization.h; sourceTree = "<group>"; };
+		5EB5C9D21A65339600CF19C1 /* ZPURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPURLRequestSerialization.m; sourceTree = "<group>"; };
+		5EB5C9D31A65339600CF19C1 /* ZPURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPURLResponseSerialization.h; sourceTree = "<group>"; };
+		5EB5C9D41A65339600CF19C1 /* ZPURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPURLResponseSerialization.m; sourceTree = "<group>"; };
+		5EB5C9D51A65339600CF19C1 /* ZPURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPURLSessionManager.h; sourceTree = "<group>"; };
+		5EB5C9D61A65339600CF19C1 /* ZPURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPURLSessionManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +231,7 @@
 		5EB5C9621A63D23E00CF19C1 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				5EB5C9B11A65339600CF19C1 /* ZPNetworking */,
 				5EB5C99D1A65092200CF19C1 /* JSON */,
 				5EB5C9831A63D6D700CF19C1 /* KLCPopup */,
 				5EB5C9631A63D23E00CF19C1 /* Extensions */,
@@ -344,6 +398,57 @@
 			path = JSON;
 			sourceTree = "<group>";
 		};
+		5EB5C9B11A65339600CF19C1 /* ZPNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				5EB5C9B21A65339600CF19C1 /* UIKit+ZPNetworking */,
+				5EB5C9C41A65339600CF19C1 /* ZPHTTPRequestOperation.h */,
+				5EB5C9C51A65339600CF19C1 /* ZPHTTPRequestOperation.m */,
+				5EB5C9C61A65339600CF19C1 /* ZPHTTPRequestOperationManager.h */,
+				5EB5C9C71A65339600CF19C1 /* ZPHTTPRequestOperationManager.m */,
+				5EB5C9C81A65339600CF19C1 /* ZPHTTPSessionManager.h */,
+				5EB5C9C91A65339600CF19C1 /* ZPHTTPSessionManager.m */,
+				5EB5C9CA1A65339600CF19C1 /* ZPNetworking.h */,
+				5EB5C9CB1A65339600CF19C1 /* ZPNetworkReachabilityManager.h */,
+				5EB5C9CC1A65339600CF19C1 /* ZPNetworkReachabilityManager.m */,
+				5EB5C9CD1A65339600CF19C1 /* ZPSecurityPolicy.h */,
+				5EB5C9CE1A65339600CF19C1 /* ZPSecurityPolicy.m */,
+				5EB5C9CF1A65339600CF19C1 /* ZPURLConnectionOperation.h */,
+				5EB5C9D01A65339600CF19C1 /* ZPURLConnectionOperation.m */,
+				5EB5C9D11A65339600CF19C1 /* ZPURLRequestSerialization.h */,
+				5EB5C9D21A65339600CF19C1 /* ZPURLRequestSerialization.m */,
+				5EB5C9D31A65339600CF19C1 /* ZPURLResponseSerialization.h */,
+				5EB5C9D41A65339600CF19C1 /* ZPURLResponseSerialization.m */,
+				5EB5C9D51A65339600CF19C1 /* ZPURLSessionManager.h */,
+				5EB5C9D61A65339600CF19C1 /* ZPURLSessionManager.m */,
+			);
+			path = ZPNetworking;
+			sourceTree = "<group>";
+		};
+		5EB5C9B21A65339600CF19C1 /* UIKit+ZPNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				5EB5C9B31A65339600CF19C1 /* UIActivityIndicatorView+ZPNetworking.h */,
+				5EB5C9B41A65339600CF19C1 /* UIActivityIndicatorView+ZPNetworking.m */,
+				5EB5C9B51A65339600CF19C1 /* UIAlertView+ZPNetworking.h */,
+				5EB5C9B61A65339600CF19C1 /* UIAlertView+ZPNetworking.m */,
+				5EB5C9B71A65339600CF19C1 /* UIButton+ZPNetworking.h */,
+				5EB5C9B81A65339600CF19C1 /* UIButton+ZPNetworking.m */,
+				5EB5C9B91A65339600CF19C1 /* UIImageView+ZPNetworking.h */,
+				5EB5C9BA1A65339600CF19C1 /* UIImageView+ZPNetworking.m */,
+				5EB5C9BB1A65339600CF19C1 /* UIKit+ZPNetworking.h */,
+				5EB5C9BC1A65339600CF19C1 /* UIProgressView+ZPNetworking.h */,
+				5EB5C9BD1A65339600CF19C1 /* UIProgressView+ZPNetworking.m */,
+				5EB5C9BE1A65339600CF19C1 /* UIRefreshControl+ZPNetworking.h */,
+				5EB5C9BF1A65339600CF19C1 /* UIRefreshControl+ZPNetworking.m */,
+				5EB5C9C01A65339600CF19C1 /* UIWebView+ZPNetworking.h */,
+				5EB5C9C11A65339600CF19C1 /* UIWebView+ZPNetworking.m */,
+				5EB5C9C21A65339600CF19C1 /* ZPNetworkActivityIndicatorManager.h */,
+				5EB5C9C31A65339600CF19C1 /* ZPNetworkActivityIndicatorManager.m */,
+			);
+			path = "UIKit+ZPNetworking";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -443,25 +548,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EB5C9DE1A65339600CF19C1 /* ZPNetworkActivityIndicatorManager.m in Sources */,
 				5EB5C9AD1A65092200CF19C1 /* SBJSON.m in Sources */,
+				5EB5C9DC1A65339600CF19C1 /* UIRefreshControl+ZPNetworking.m in Sources */,
+				5EB5C9D91A65339600CF19C1 /* UIButton+ZPNetworking.m in Sources */,
 				5EB5C9741A63D45D00CF19C1 /* EditContactViewController.m in Sources */,
+				5EB5C9E01A65339600CF19C1 /* ZPHTTPRequestOperationManager.m in Sources */,
+				5EB5C9E51A65339600CF19C1 /* ZPURLRequestSerialization.m in Sources */,
 				5EB5C9961A63DAF200CF19C1 /* BaseViewController.m in Sources */,
 				5EB5C9861A63D6D700CF19C1 /* KLCPopup.m in Sources */,
 				5EB5C9341A637FA900CF19C1 /* AppDelegate.m in Sources */,
+				5EB5C9D71A65339600CF19C1 /* UIActivityIndicatorView+ZPNetworking.m in Sources */,
 				5EB5C9941A63DAF200CF19C1 /* BaseScrollViewController.m in Sources */,
+				5EB5C9D81A65339600CF19C1 /* UIAlertView+ZPNetworking.m in Sources */,
 				5EB5C9751A63D45D00CF19C1 /* ViewController.m in Sources */,
 				5EB5C9B01A65092200CF19C1 /* SBJsonWriter.m in Sources */,
 				5EB5C9931A63DAF200CF19C1 /* BaseScrollView.m in Sources */,
+				5EB5C9E61A65339600CF19C1 /* ZPURLResponseSerialization.m in Sources */,
 				5EB5C9AE1A65092200CF19C1 /* SBJsonBase.m in Sources */,
+				5EB5C9E71A65339600CF19C1 /* ZPURLSessionManager.m in Sources */,
 				5EB5C97C1A63D5EA00CF19C1 /* MyTableViewCell.m in Sources */,
 				5EB5C99C1A63DEAD00CF19C1 /* ContactObject.m in Sources */,
+				5EB5C9E21A65339600CF19C1 /* ZPNetworkReachabilityManager.m in Sources */,
 				5EB5C9311A637FA900CF19C1 /* main.m in Sources */,
+				5EB5C9DA1A65339600CF19C1 /* UIImageView+ZPNetworking.m in Sources */,
+				5EB5C9DB1A65339600CF19C1 /* UIProgressView+ZPNetworking.m in Sources */,
 				5EB5C9731A63D45D00CF19C1 /* AddContantViewController.m in Sources */,
+				5EB5C9DF1A65339600CF19C1 /* ZPHTTPRequestOperation.m in Sources */,
 				5EB5C9AF1A65092200CF19C1 /* SBJsonParser.m in Sources */,
+				5EB5C9E31A65339600CF19C1 /* ZPSecurityPolicy.m in Sources */,
 				5EB5C9951A63DAF200CF19C1 /* BaseView.m in Sources */,
 				5EB5C9921A63DAF200CF19C1 /* BaseObject.m in Sources */,
+				5EB5C9E11A65339600CF19C1 /* ZPHTTPSessionManager.m in Sources */,
+				5EB5C9DD1A65339600CF19C1 /* UIWebView+ZPNetworking.m in Sources */,
 				5EB5C9AC1A65092200CF19C1 /* NSString+SBJSON.m in Sources */,
 				5EB5C9661A63D25900CF19C1 /* UIImage+Ext.m in Sources */,
+				5EB5C9E41A65339600CF19C1 /* ZPURLConnectionOperation.m in Sources */,
 				5EB5C9AB1A65092200CF19C1 /* NSObject+SBJSON.m in Sources */,
 				5EB5C9371A637FA900CF19C1 /* phonebook.xcdatamodeld in Sources */,
 			);
